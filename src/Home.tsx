@@ -1,7 +1,7 @@
 import { WalletConnectButton, useWallet } from '@sei-js/react'
 import { Counter } from './components/Counter'
 
-const CONTRACT_ADDRESS = 'sei18g4g35mhy5s88nshpa6flvpj9ex6u88l6mhjmzjchnrfa7xr00js0gswru'
+const CONTRACT_ADDRESS = 'sei1jq8alrs0f4sq9sj4sj2m037jaf299dyfuhq7sezwsc2kejfvc9dqmcgxs4'
 
 function Home() {
 	const { connectedWallet } = useWallet()
